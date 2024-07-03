@@ -2,7 +2,7 @@ import React from 'react';
 
 const LoadingScreen = () => {
   return (
-    <div className="loading-screen fixed top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-orange-400 z-50">
+    <div className="loading-screen fixed top-0 left-0 w-full h-full flex flex-col justify-center items-center bg-orange-400 z-50 pointer-events-none">
       <div className="headline-container w-2/5 text-left">
         <h1 className="text-4xl font-bold"></h1>
       </div>

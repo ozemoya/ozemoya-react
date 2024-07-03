@@ -50,10 +50,8 @@ export const App = () => {
       />
       <Window show={showWindow} onClose={() => setShowWindow(false)} />
       <SpotifyPlayer show={showSpotify} />
-      <Taskbar 
-        headlines={headlines}
-      />
-       <LoadingScreen /> 
+      <Taskbar headlines={headlines} />
+      <LoadingScreen />
     </div>
   );
 };
