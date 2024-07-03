@@ -4,10 +4,10 @@ import Time from './Time';
 
 const Taskbar = ({ headlines }) => {
   return (
-    <span className="taskbar border-top">
+    <span className="taskbar fixed bottom-0 left-0 w-full h-12 bg-gray-200 flex items-center px-2 shadow-lg">
       <div className="Start">
-        <button className="start-button">
-          <img src="images/windowstart.png" alt="Start" />
+        <button className="start-button flex items-center bg-gray-400 border border-black h-10 px-2 shadow">
+          <img src="/windowstart.png" alt="Start" className="mr-2 w-6" />
           <span>Start</span>
         </button>
       </div>
